@@ -1,3 +1,9 @@
+@import 'base/base';
+
+@import 'variables/variables';
+@import 'variables/breakpoints';
+
+@import 'components/c-container';
 @import 'components/c-header';
 @import 'components/c-navbar.scss';
 @import 'components/c-intro.scss';
