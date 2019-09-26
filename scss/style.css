@@ -1,0 +1,44 @@
+body {
+  margin: 0; }
+
+.c-container {
+  width: 95%;
+  margin: 0 auto; }
+
+.c-header {
+  height: 100px; }
+  .c-header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 25px 0; }
+    .c-header__inner-logo {
+      height: 50px; }
+      .c-header__inner-logo__hero {
+        height: 50px; }
+    .c-header__inner-searchbar {
+      margin-top: 5px;
+      height: 45px;
+      width: 45px; }
+      .c-header__inner-searchbar__input {
+        display: none; }
+      .c-header__inner-searchbar__button {
+        border-color: #d4d4d4;
+        padding: 12px; }
+
+@media screen and (min-width: 720px) {
+  .c-header__inner-searchbar {
+    display: flex;
+    width: 250px; }
+    .c-header__inner-searchbar__input {
+      display: block;
+      width: 250px; }
+    .c-header__inner-searchbar__input::placeholder {
+      padding-left: 10px; }
+    .c-header__inner-searchbar__button {
+      border: none;
+      margin-top: 1px;
+      position: absolute;
+      margin-left: 209px; }
+    .c-header__inner-searchbar__icon {
+      padding: none; } }
