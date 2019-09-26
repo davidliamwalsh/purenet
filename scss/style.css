@@ -45,6 +45,7 @@ body {
       margin-left: 209px; }
     .c-header__inner-searchbar__icon {
       padding: none; } }
+
 .c-navbar {
   background-color: #f0f0f0;
   width: 100%;
@@ -114,3 +115,4 @@ body {
         padding: 1em; }
       .c-navbar__inner_list-item:first-child {
         padding-left: 0; } }
+
