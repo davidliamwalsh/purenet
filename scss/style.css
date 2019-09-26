@@ -5,6 +5,9 @@ body {
   width: 95%;
   margin: 0 auto; }
 
+@media screen and (min-width: 720px) {
+  .c-container {
+    width: 80%; } }
 .c-header {
   height: 100px; }
   .c-header__inner {
@@ -42,3 +45,72 @@ body {
       margin-left: 209px; }
     .c-header__inner-searchbar__icon {
       padding: none; } }
+.c-navbar {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative; }
+  .c-navbar__inner {
+    display: flex;
+    justify-content: space-between; }
+    .c-navbar__inner-logo {
+      color: #575757; }
+      .c-navbar__inner-logo h3 {
+        padding: 15px 0;
+        margin: 0; }
+    .c-navbar__inner-toggle {
+      background: #ff5500;
+      margin: 5px 0; }
+      .c-navbar__inner-toggle img {
+        margin: 10px; }
+    .c-navbar__inner_list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      top: 55px;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      width: 30%;
+      min-width: 150px; }
+      .c-navbar__inner_list-item {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        .c-navbar__inner_list-item a {
+          text-decoration: none;
+          color: #575757;
+          cursor: pointer; }
+        .c-navbar__inner_list-item a .active {
+          color: #333333; }
+        .c-navbar__inner_list-item a:hover {
+          color: #333333; }
+
+@media screen and (min-width: 720px) {
+  .c-navbar__inner {
+    display: flex;
+    justify-content: space-between; }
+    .c-navbar__inner-logo {
+      display: none; }
+    .c-navbar__inner-toggle {
+      display: none; }
+    .c-navbar__inner_list {
+      display: flex !important;
+      flex-direction: row;
+      position: relative;
+      justify-content: flex-start;
+      right: auto;
+      top: auto;
+      margin-top: 0;
+      padding: 0;
+      width: 100%;
+      min-width: none; }
+      .c-navbar__inner_list-item {
+        list-style: none;
+        margin: 0;
+        padding: 1em; }
+      .c-navbar__inner_list-item:first-child {
+        padding-left: 0; } }

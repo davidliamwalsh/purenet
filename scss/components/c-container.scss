@@ -2,3 +2,10 @@
   width: 95%;
   margin: 0 auto;
 }
+
+@media screen and (min-width: $breakpoint) {
+
+  .c-container {
+    width: 80%;
+  }
+}
