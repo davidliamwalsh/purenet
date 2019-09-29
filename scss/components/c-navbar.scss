@@ -64,7 +64,7 @@
   }
 }
 
-@media screen and (min-width: $breakpoint) {
+@media screen and (min-width: $laptop) {
   .c-navbar__inner {
       display: flex;
       justify-content: space-between;

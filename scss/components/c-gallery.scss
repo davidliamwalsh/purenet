@@ -1,5 +1,6 @@
 .c-gallery {
   margin: 2em 0;
+
   &__inner-item {
       width: 100%;
       padding: 10px 0;
@@ -7,8 +8,9 @@
   
 }
 
-@media screen and (min-width: $breakpoint) {
+@media screen and (min-width: $laptop) {
   .c-gallery {
+    margin: 3em 0;
 
     &__inner {
       display: grid;
