@@ -1,0 +1,22 @@
+.c-intro {
+  margin-top: 2em;
+
+  &__title {
+    color: #ff5500;
+  }
+
+  &__main {
+    color: #2d2d2d;
+  }
+
+  &__light {
+    color: #7e7e7e;
+  }
+}
+
+@media screen and (min-width: $laptop) {
+
+  .c-intro {
+    margin-top: 3em;
+  }
+}
