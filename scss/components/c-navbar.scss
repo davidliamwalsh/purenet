@@ -14,7 +14,7 @@
     &-logo {
       color: #575757;
 
-      h3 {
+      &--text {
         padding: 15px 0;
         margin: 0;
       }
@@ -24,7 +24,7 @@
       background: #ff5500;
       margin: 5px 0;
 
-      img {
+      &--burger {
         margin: 10px;
       }
     }
@@ -44,16 +44,16 @@
       &-item {
         list-style: none;
         margin: 0;
-        padding: 0;
+        padding: 1em;
+
+        &--active {
+          border-bottom: none;
+        }
   
         a {
           text-decoration: none;
           color: #575757;
           cursor: pointer;
-        }
-
-        a .active {
-          color: #333333;
         }
 
         a:hover {
@@ -92,7 +92,10 @@
         &-item {
           list-style: none;
           margin: 0;
-          padding: 1em;
+
+          &--active {
+            border-bottom: 4px solid black;
+          }
         }
         &-item:first-child {
           padding-left: 0;
