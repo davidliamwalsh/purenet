@@ -1,0 +1,18 @@
+.c-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: $laptop) {
+
+  .c-container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+
+  .c-container {
+    width: 75%;
+  }
+}

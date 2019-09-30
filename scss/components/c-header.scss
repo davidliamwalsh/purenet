@@ -1,0 +1,60 @@
+.c-header {
+  height: 100px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 25px 0;
+
+    &-logo {
+      height: 50px;
+
+      &__hero {
+        height: 50px;
+      }
+    }
+
+    &-searchbar {
+      margin-top: 5px;
+      height: 45px;
+      width: 45px;
+
+      &__input {
+        display: none;
+      }
+
+      &__button {
+        border-color:  #d4d4d4;
+        padding: 12px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $laptop) {
+
+  .c-header__inner-searchbar {
+    display: flex;
+    width: 250px;
+
+    &__input {
+      display: block;
+      width: 250px;
+    }
+
+    &__input::placeholder {
+      padding-left: 10px;
+    }
+
+    &__button {
+      border: none;
+      margin-top: 1px;
+      position: absolute;
+      margin-left: 209px;
+    }
+    &__icon {
+      padding: none;
+    }
+  }
+}
