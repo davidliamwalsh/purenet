@@ -114,8 +114,9 @@ body {
       .c-navbar__inner_list-item {
         list-style: none;
         margin: 0; }
-        .c-navbar__inner_list-item--active {
-          border-bottom: 4px solid black; }
+        .c-navbar__inner_list-item--active:hover {
+          border-bottom: 4px solid #ff5500;
+          transition: all 0.15s ease-in-out 0s; }
       .c-navbar__inner_list-item:first-child {
         padding-left: 0; } }
 .c-intro {

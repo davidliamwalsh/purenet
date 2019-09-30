@@ -93,8 +93,9 @@
           list-style: none;
           margin: 0;
 
-          &--active {
-            border-bottom: 4px solid black;
+          &--active:hover {
+            border-bottom: 4px solid #ff5500;
+            transition: all 0.15s ease-in-out 0s;
           }
         }
         &-item:first-child {
