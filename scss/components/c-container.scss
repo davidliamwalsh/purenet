@@ -11,5 +11,8 @@
 }
 
 @media screen and (min-width: $desktop) {
-  width: 75%;
+
+  .c-container {
+    width: 75%;
+  }
 }

@@ -1,0 +1,19 @@
+.c-footer-social {
+  height: 75px;
+  width: 100%;
+  margin: 0 auto;
+  background: #6d716e;
+  text-align: center; 
+
+  &-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .fa {
+    color: white;
+    vertical-align: middle;
+    padding: .5em;
+  }
+}
